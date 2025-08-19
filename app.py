@@ -68,7 +68,8 @@ if uploaded_file is not None:
     status_text.text("✅ Transcrição concluída!")
 
     st.success("Transcrição pronta! Faça o download:")
-    download_button(md_file, "📥 Baixar Transcrição (.MD)")st.sidebar.header("Upload de Áudio e Progresso")
+    download_button(md_file, "📥 Baixar Transcrição (.MD)")
+    st.sidebar.header("Upload de Áudio e Progresso")
 uploaded_file = st.sidebar.file_uploader("Escolha um arquivo de áudio", type=["mp3", "wav", "m4a"])
 
 progress_bar = st.sidebar.progress(0)
