@@ -160,12 +160,12 @@ def download_button(file_path, label):
 ---
 
 📌 requirements.txt
-
+```plaintext
 streamlit
 openai-whisper
 redis
 torch
-
+```
 
 ---
 
