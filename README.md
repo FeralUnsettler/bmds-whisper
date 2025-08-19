@@ -40,7 +40,7 @@ Configure variáveis de ambiente do Redis se necessário
 ---
 
 📂 Estrutura de Pastas
-
+```plaintext
 BMDS-Whisper/
 │── app.py
 │── requirements.txt
@@ -48,7 +48,7 @@ BMDS-Whisper/
 │── utils.py
 │── assets/
 │    └── logo.png
-
+```
 
 ---
 
